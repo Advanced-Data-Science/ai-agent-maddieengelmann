@@ -1,0 +1,35 @@
+[
+  {
+    "id": "3TVXtAsR1Inumwj472S9r4",
+    "name": "Drake",
+    "genres": [
+      "rap"
+    ],
+    "spotify_url": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4",
+    "popularity": 99,
+    "followers": 102136823
+  },
+  {
+    "id": "4q3ewBCX7sLwd24euuV69X",
+    "name": "Bad Bunny",
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino",
+      "latin"
+    ],
+    "spotify_url": "https://open.spotify.com/artist/4q3ewBCX7sLwd24euuV69X",
+    "popularity": 99,
+    "followers": 101145595
+  },
+  {
+    "id": "4dpARuHxo51G3z768sgnrY",
+    "name": "Adele",
+    "genres": [
+      "soft pop"
+    ],
+    "spotify_url": "https://open.spotify.com/artist/4dpARuHxo51G3z768sgnrY",
+    "popularity": 87,
+    "followers": 66186851
+  }
+]

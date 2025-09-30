@@ -1,0 +1,20 @@
+{
+  "client_id": "05bba76a2b4442fbb960ce93d8863253",
+  "client_secret": "2b928f17c444418a85a1e95db863745b",
+
+  "artists_to_search": [
+    "Taylor Swift",
+    "Drake",
+    "Bad Bunny",
+    "Adele"
+  ],
+
+  "collection_settings": {
+    "min_delay_seconds": 1.0
+  },
+
+  "data_paths": {
+    "raw_data": "data/raw",
+    "reports": "data/reports"
+  }
+}
