@@ -1,4 +1,4 @@
-#Excersize 2.2
+# Excersize 2.2
 import requests
 import json
 import logging
@@ -62,12 +62,35 @@ def save_facts_to_json(facts, filename="cat_facts.json"):
     except Exception as e:
         logging.error(f"Failed to save cat facts: {e}")
 
+def load_facts_from_json(filename="cat_facts.json"):
+    """
+    Loads cat facts from a JSON file.
+    Returns:
+        list: List of cat facts, or an empty list if error occurs.
+    """
+    try:
+        with open(filename, "r") as f:
+            facts = json.load(f)
+        logging.info(f"Loaded {len(facts)} cat facts from {filename}")
+        return facts
+    except Exception as e:
+        logging.error(f"Failed to load cat facts: {e}")
+        return []
+
 # Main execution
 if __name__ == "__main__":
+    # Step 1: Fetch and save facts
     cat_facts = get_multiple_cat_facts(5)
     save_facts_to_json(cat_facts)
 
-#Excersize 2.3
+    # Step 2: Open/read facts from JSON
+    loaded_facts = load_facts_from_json()
+    print("\nCat facts from JSON file:")
+    for i, fact in enumerate(loaded_facts, 1):
+        print(f"{i}. {fact}")
+
+
+# Excersize 2.3
 import requests
 import logging
 
